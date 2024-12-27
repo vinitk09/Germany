@@ -1,0 +1,1114 @@
+.hero-container {
+  /* background-image: url("../assets/heroSection.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+}
+
+.heading_image {
+  display: flex;
+  justify-content: center;
+  /* Centers the child elements horizontally */
+  align-items: center;
+  /* Centers the child elements vertically */
+  gap: 2rem;
+  /* Adds space between .heading-h1 and .circle-container */
+}
+
+.circle-container {
+  display: flex;
+
+  position: relative;
+  width: 100%;
+  height: 100px;
+  /* left: 410px; */
+  top: 220px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  /* background: radial-gradient(circle, #ff2f00cb 0%, #ff942245 100%); */
+}
+
+.circle.one {
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  opacity: 0.4;
+  background-color: white;
+  border: 2px solid white;
+  /* filter: blur(15px); */
+}
+
+.circle.two {
+  width: 340px;
+  height: 360px;
+  top: 99%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0.9;
+  background: radial-gradient(
+    circle,
+    rgb(255, 170, 0) 0%,
+    rgb(255, 179, 0) 100%
+  );
+  filter: blur(40px);
+}
+
+.circle.three {
+  width: 360px;
+  height: 360px;
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.8;
+  background: radial-gradient(circle, rgb(255, 94, 0) 0%, rgb(255, 94, 0) 100%);
+  filter: blur(60px);
+}
+
+.circle-container img {
+  position: absolute;
+  /* max-width: 700px; */
+  max-height: 363px;
+  z-index: 4;
+  object-fit: contain;
+  top: -60px;
+  left: 77px;
+}
+
+.icon-circle {
+  position: absolute;
+  top: -70px;
+  /* Adjust to position the icon circle over the top-left of the third circle */
+  left: 210px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ff9422 0%, #d63715 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  /* Ensures it is above other circles */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Optional shadow for aesthetics */
+}
+.icon-circle2 {
+  position: absolute;
+  top: 170px;
+  /* Adjust to position the icon circle over the top-left of the third circle */
+  left: 490px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ff9422 0%, #d63715 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  /* Ensures it is above other circles */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Optional shadow for aesthetics */
+}
+
+.icon-circle svg {
+  width: 30px;
+  /* Adjust icon size */
+  height: 30px;
+  color: #ffffff;
+  fill: #ffffff;
+  /* Optional: Change the color of the SVG */
+}
+.icon-circle2 svg {
+  width: 15px;
+  /* Adjust icon size */
+  height: 15px;
+  color: #ffffff;
+  fill: #ffffff;
+  /* Optional: Change the color of the SVG */
+}
+
+.accepted-card {
+  width: 173px;
+  height: 76px;
+  border-radius: 15px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  z-index: 6;
+  top: -120%;
+  left: 55%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: 20px;
+  /* Add this */
+}
+
+.accepted-card2 {
+  width: 173px;
+  height: 86px;
+  border-radius: 15px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  top: 105%;
+  left: 15%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: 20px;
+  /* Add this */
+}
+
+.accepted-heading {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 29px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accepted-heading2 {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 29px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accepted-description {
+  font-family: Gilroy;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #5c5c5c;
+}
+
+.accepted-description2 {
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #5c5c5c;
+}
+
+.tick-mark {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 73%;
+  /* margin-top: 60px; */
+}
+
+.outer-circle {
+  /* position: absolute; */
+  width: 80px;
+  height: 80px;
+  background: grey;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tick-mark svg {
+  /* position: absolute; */
+  width: 24px;
+  /* Size of the checkmark */
+  height: 24px;
+  color: #ffffff;
+  /* White checkmark */
+}
+
+.heading-h1 {
+  /* width: 802px; */
+  height: 294px;
+  top: 97px;
+  left: 51px;
+  gap: 0px;
+  opacity: 0px;
+  width: 100%;
+  padding: 60px 0px 80px 80px;
+}
+
+.heading-h1 > h1 {
+  margin-left: 3rem;
+  font-family: Gilroy;
+  font-size: 56px;
+  font-weight: 700;
+
+  line-height: 77px;
+  /* letter-spacing: 0.01em; */
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: relative;
+  top: 90px;
+  /* left: 51px; */
+  background-image: #222222;
+  background-clip: text;
+}
+
+.heading-h1 > h1 > .gradient-text {
+  background-image: linear-gradient(93.14deg, #d12631 2.6%, #d4a853 77.38%);
+  background-clip: text;
+  color: transparent;
+}
+
+.call-for-counselling {
+  position: absolute;
+  width: 240.13px;
+  height: 47.52px;
+  top: 420.2px;
+  left: 133.13px;
+  gap: 0px;
+  border-radius: 11.09px;
+  opacity: 0px;
+  background: linear-gradient(90deg, #d63715 0%, #ff9422 100%);
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* angle: -180 deg; */
+}
+
+.call-for-counselling > .btn-call {
+  font-family: Gilroy-SemiBold;
+  font-size: 16.63px;
+  font-weight: 400;
+  line-height: 25.63px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /* width: 176.08px; */
+  height: 26.35px;
+  top: 486px;
+  left: 75px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .call-for-counselling {
+    position: relative;
+    top: 290px;
+    /* margin: 2rem; */
+
+    /* padding: 2rem; */
+  }
+}
+
+.small-description {
+  font-family: Gilroy;
+  font-size: 22.17px;
+  font-weight: 700;
+  line-height: 25.63px;
+  /* font-style: bold; */
+  /* letter-spacing: -0.02em; */
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #969696;
+  position: absolute;
+  height: 26.35px;
+  top: 520px;
+  left: 130px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+@media (max-width: 768px) {
+  .small-description {
+    position: relative;
+    top: 320px;
+    /* margin: 2rem; */
+
+    /* padding: 2rem; */
+  }
+}
+
+.car-logo {
+  display: flex;
+  flex-wrap: wrap;
+  /* Wraps items to the next line for smaller screens */
+  gap: 1rem;
+  justify-content: center;
+  /* Centers content on smaller screens */
+  align-items: center;
+  padding: 1rem;
+  position: absolute;
+  top: 530px;
+  left: 120px;
+  /* gap: 100px; */
+}
+
+.logo-container-b {
+  width: 80px;
+  /* Default width */
+  height: 80px;
+  /* Default height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* Light background */
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+  /* position: absolute; */
+  display: flex;
+  top: 79%;
+  left: 0;
+  z-index: 12;
+  background: transparent;
+}
+
+.logo-container-b img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  background-color: transparent;
+  /* Applies transparency globally */
+}
+
+.logo-container-b:hover {
+  transform: scale(1.05);
+  /* Slight zoom effect */
+  /* box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);s */
+}
+
+.logo-container-b img:hover {
+  opacity: 1;
+  /* Brightens the logo on hover */
+}
+
+.tesla {
+  width: 47.33px;
+  height: 78.27px;
+  position: absolute;
+  left: 10px;
+  top: 39px;
+}
+
+.bmw {
+  width: 59.86px;
+  height: 60.1px;
+  position: absolute;
+  left: 107px;
+  top: 48px;
+}
+
+.audi {
+  width: 91.88px;
+  height: 34.24px;
+  position: absolute;
+  left: 210px;
+  top: 60px;
+}
+
+.lufthansa {
+  width: 176.79px;
+  height: 31.45px;
+  position: absolute;
+  left: 348px;
+  top: 63px;
+}
+
+/* Responsive Adjustments */
+
+.small-description {
+  color: #969696;
+  opacity: 0.9;
+  /* Slightly brighter text */
+}
+
+.logo-container-b img {
+  opacity: 1;
+  /* Fully visible logos */
+}
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 80px;
+  }
+  .heading-h1 {
+    margin-left: 0px;
+    line-height: normal; /* Ensure readable line height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .heading-h1 > h1 {
+    font-family: Gilroy, sans-serif; /* Adding a fallback font */
+    font-weight: 700;
+    font-size: 48px;
+    width: 100%; /* Use full width for better scaling */
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    right: -10px;
+    margin: 0 2px;
+  }
+
+  .heading-h1 span {
+    display: block;
+    width: 100%; /* Ensure spans take the full width */
+  }
+  .heading_image {
+    display: flex;
+    flex-direction: column;
+  }
+  .call-for-counselling {
+    position: absolute;
+    top: 350.2px;
+    left: 234.13px;
+  }
+  .small-description {
+    font-size: 20.17px;
+    position: absolute;
+    top: 440px;
+    left: 180px;
+    color: #969696;
+    /* text-shadow: 1px 1px 5px #969696; */
+  }
+  .car-logo {
+    gap: 1.5rem;
+    /* Reduced gap for very small screens */
+    /* padding: 0.5rem; */
+    position: relative;
+    top: 109px;
+
+    left: 114px;
+  }
+
+  .logo-container-b {
+    width: 60px;
+    /* Further reduced width for small screens */
+    height: 60px;
+    /* Further reduced height for small screens */
+  }
+
+  .tesla {
+    width: 55px;
+    height: 80px;
+    position: absolute;
+    left: -20px;
+    top: -123px;
+  }
+
+  .audi {
+    width: 90px;
+    height: 45px;
+    position: absolute;
+    left: 110px;
+    top: -110px;
+  }
+
+  .lufthansa {
+    width: 140px;
+    height: 45px;
+    position: absolute;
+    left: 195px;
+    top: -110px;
+  }
+
+  .bmw {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 40px;
+    top: -120px;
+  }
+  .circle-container {
+    display: flex;
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* left: 410px; */
+    top: 350px;
+    /* bottom: 10px; */
+  }
+
+  .circle.one {
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+
+  .circle.two {
+    width: 290px;
+    height: 290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0.8;
+    filter: blur(15px);
+  }
+
+  .circle.three {
+    width: 360px;
+    height: 360px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.6;
+    filter: blur(20px);
+  }
+
+  .circle-container img {
+    position: absolute;
+    /* width: 400px; */
+    height: 223px;
+    z-index: 4;
+    object-fit: contain;
+    top: -60px;
+    left: 105px;
+  }
+
+  .icon-circle {
+    position: absolute;
+    top: -45px;
+    /* Adjust to position the icon circle over the top-left of the third circle */
+    left: 140px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff9422 0%, #d63715 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    /* Ensures it is above other circles */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for aesthetics */
+  }
+  .icon-circle2 {
+    position: absolute;
+    top: 140px;
+    /* Adjust to position the icon circle over the top-left of the third circle */
+    left: 330px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff9422 0%, #d63715 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    /* Ensures it is above other circles */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for aesthetics */
+  }
+
+  .icon-circle svg {
+    width: 30px;
+    /* Adjust icon size */
+    height: 30px;
+    color: #ffffff;
+    fill: #ffffff;
+    /* Optional: Change the color of the SVG */
+  }
+  .icon-circle2 svg {
+    width: 15px;
+    /* Adjust icon size */
+    height: 15px;
+    color: #ffffff;
+    fill: #ffffff;
+    /* Optional: Change the color of the SVG */
+  }
+
+  .accepted-card {
+    width: 160px;
+    height: 76px;
+    border-radius: 15px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+    top: -110%;
+    left: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+  }
+
+  .accepted-card2 {
+    width: 153px;
+    height: 76px;
+    border-radius: 15px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    top: 95%;
+    left: 25%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+    /* Add this */
+  }
+
+  .accepted-heading {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 29px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .accepted-heading2 {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 29px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .accepted-description {
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5c5c5c;
+  }
+
+  .accepted-description2 {
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5c5c5c;
+  }
+
+  .tick-mark {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 79%;
+    /* margin-top: 60px; */
+  }
+
+  .outer-circle {
+    /* position: absolute; */
+    width: 80px;
+    height: 80px;
+    background: grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tick-mark svg {
+    /* position: absolute; */
+    width: 24px;
+    /* Size of the checkmark */
+    height: 24px;
+    color: #ffffff;
+    /* White checkmark */
+  }
+  .hero-container {
+    height: 1100px;
+  }
+}
+
+@media (max-width: 445px) {
+  .hero-container {
+    padding: 80px;
+  }
+  .heading-h1 {
+    margin-left: 0px;
+    line-height: normal; /* Ensure readable line height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .heading-h1 > h1 {
+    font-family: Gilroy, sans-serif; /* Adding a fallback font */
+    font-weight: 700;
+    font-size: 28px;
+    width: 100%; /* Use full width for better scaling */
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    right: -10px;
+    margin: 0 2px;
+  }
+
+  .heading-h1 span {
+    display: block;
+    width: 100%; /* Ensure spans take the full width */
+  }
+  .heading_image {
+    display: flex;
+    flex-direction: column;
+  }
+  .call-for-counselling {
+    position: absolute;
+    top: 200.2px;
+    left: 74.13px;
+  }
+  .small-description {
+    font-size: 20.17px;
+    position: absolute;
+    top: 270px;
+    left: 25px;
+    color: #969696;
+    /* text-shadow: 1px 1px 5px #969696; */
+  }
+  .car-logo {
+    gap: 0.5rem;
+    /* Reduced gap for very small screens */
+    /* padding: 0.5rem; */
+    position: relative;
+    top: -69px;
+
+    left: -34px;
+  }
+
+  .logo-container-b {
+    width: 60px;
+    /* Further reduced width for small screens */
+    height: 60px;
+    /* Further reduced height for small screens */
+  }
+
+  .tesla {
+    width: 35px;
+    height: 60px;
+    position: absolute;
+    left: -20px;
+    top: -123px;
+  }
+
+  .audi {
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    left: 110px;
+    top: -110px;
+  }
+
+  .lufthansa {
+    width: 120px;
+    height: 25px;
+    position: absolute;
+    left: 195px;
+    top: -110px;
+  }
+
+  .bmw {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 40px;
+    top: -120px;
+  }
+  .circle-container {
+    display: flex;
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* left: 410px; */
+    top: 150px;
+    bottom: 10px;
+  }
+
+  .circle.one {
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+
+  .circle.two {
+    width: 290px;
+    height: 290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0.8;
+    filter: blur(15px);
+  }
+
+  .circle.three {
+    width: 360px;
+    height: 360px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.6;
+    filter: blur(20px);
+  }
+
+  .circle-container img {
+    position: absolute;
+    /* width: 400px; */
+    height: 263px;
+    z-index: 4;
+    object-fit: contain;
+    top: -60px;
+    left: 8px;
+  }
+
+  .icon-circle {
+    position: absolute;
+    top: -45px;
+    /* Adjust to position the icon circle over the top-left of the third circle */
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff9422 0%, #d63715 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    /* Ensures it is above other circles */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for aesthetics */
+  }
+  .icon-circle2 {
+    position: absolute;
+    top: 160px;
+    /* Adjust to position the icon circle over the top-left of the third circle */
+    left: 180px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff9422 0%, #d63715 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    /* Ensures it is above other circles */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for aesthetics */
+  }
+
+  .icon-circle svg {
+    width: 30px;
+    /* Adjust icon size */
+    height: 30px;
+    color: #ffffff;
+    fill: #ffffff;
+    /* Optional: Change the color of the SVG */
+  }
+  .icon-circle2 svg {
+    width: 15px;
+    /* Adjust icon size */
+    height: 15px;
+    color: #ffffff;
+    fill: #ffffff;
+    /* Optional: Change the color of the SVG */
+  }
+
+  .accepted-card {
+    width: 160px;
+    height: 76px;
+    border-radius: 15px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+    top: -110%;
+    left: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+  }
+
+  .accepted-card2 {
+    width: 153px;
+    height: 76px;
+    border-radius: 15px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    top: 95%;
+    left: -25%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+    /* Add this */
+  }
+
+  .accepted-heading {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 29px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .accepted-heading2 {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 29px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .accepted-description {
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5c5c5c;
+  }
+
+  .accepted-description2 {
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5c5c5c;
+  }
+
+  .tick-mark {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(90deg, #ff9422 0%, #d63715 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 79%;
+    /* margin-top: 60px; */
+  }
+
+  .outer-circle {
+    /* position: absolute; */
+    width: 80px;
+    height: 80px;
+    background: grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tick-mark svg {
+    /* position: absolute; */
+    width: 24px;
+    /* Size of the checkmark */
+    height: 24px;
+    color: #ffffff;
+    /* White checkmark */
+  }
+}

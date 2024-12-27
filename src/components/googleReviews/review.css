@@ -1,0 +1,47 @@
+.googlereview-heading {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 72px;
+  color: #ea7d06;
+}
+
+.review-description {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  /* line-height: 31px; */
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+
+/* .testimonial-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+} */
+
+/* @media (min-width: 640px) {
+  .testimonial-card {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonial-card {
+    max-width: 75%;
+  }
+} */

@@ -11,8 +11,5 @@ export default defineConfig({
   },
   build: {
     assetsInlineLimit: 0, // Ensure assets are not inlined as base64
-    rollupOptions: {
-      external: ["react-bootstrap"], // Mark react-bootstrap as an external dependency
-    },
   },
 });

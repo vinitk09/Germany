@@ -837,8 +837,8 @@
     justify-content: center;
     position: absolute;
     top: 70px;
-    right: -10px;
-    margin: 0 2px;
+    right: -5px;
+    /* margin: 0 2px; */
   }
 
   .heading-h1 span {
@@ -855,14 +855,14 @@
   .call-for-counselling {
     position: absolute;
     top: 200.2px;
-    left: 74.13px;
+    left: 69.13px;
   }
 
   .small-description {
     font-size: 20.17px;
     position: absolute;
     top: 270px;
-    left: 25px;
+    left: 22px;
     color: #969696;
     /* text-shadow: 1px 1px 5px #969696; */
   }
@@ -874,7 +874,7 @@
     position: relative;
     top: -69px;
 
-    left: -34px;
+    left: -40px;
   }
 
   .logo-container-b {

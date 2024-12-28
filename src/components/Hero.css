@@ -56,11 +56,9 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   opacity: 0.9;
-  background: radial-gradient(
-    circle,
-    rgb(255, 170, 0) 0%,
-    rgb(255, 179, 0) 100%
-  );
+  background: radial-gradient(circle,
+      rgb(255, 170, 0) 0%,
+      rgb(255, 179, 0) 100%);
   filter: blur(40px);
 }
 
@@ -103,6 +101,7 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   /* Optional shadow for aesthetics */
 }
+
 .icon-circle2 {
   position: absolute;
   top: 170px;
@@ -129,6 +128,7 @@
   fill: #ffffff;
   /* Optional: Change the color of the SVG */
 }
+
 .icon-circle2 svg {
   width: 15px;
   /* Adjust icon size */
@@ -266,7 +266,7 @@
   padding: 60px 0px 80px 80px;
 }
 
-.heading-h1 > h1 {
+.heading-h1>h1 {
   margin-left: 3rem;
   font-family: Gilroy;
   font-size: 56px;
@@ -284,7 +284,7 @@
   background-clip: text;
 }
 
-.heading-h1 > h1 > .gradient-text {
+.heading-h1>h1>.gradient-text {
   background-image: linear-gradient(93.14deg, #d12631 2.6%, #d4a853 77.38%);
   background-clip: text;
   color: transparent;
@@ -308,7 +308,7 @@
   /* angle: -180 deg; */
 }
 
-.call-for-counselling > .btn-call {
+.call-for-counselling>.btn-call {
   font-family: Gilroy-SemiBold;
   font-size: 16.63px;
   font-weight: 400;
@@ -468,13 +468,16 @@
   opacity: 1;
   /* Fully visible logos */
 }
+
 @media (max-width: 768px) {
   .hero-container {
     padding: 80px;
   }
+
   .heading-h1 {
     margin-left: 0px;
-    line-height: normal; /* Ensure readable line height */
+    line-height: normal;
+    /* Ensure readable line height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,11 +485,13 @@
     padding: 10px;
   }
 
-  .heading-h1 > h1 {
-    font-family: Gilroy, sans-serif; /* Adding a fallback font */
+  .heading-h1>h1 {
+    font-family: Gilroy, sans-serif;
+    /* Adding a fallback font */
     font-weight: 700;
     font-size: 48px;
-    width: 100%; /* Use full width for better scaling */
+    width: 100%;
+    /* Use full width for better scaling */
     line-height: 1.5;
     text-align: center;
     display: flex;
@@ -501,17 +506,21 @@
 
   .heading-h1 span {
     display: block;
-    width: 100%; /* Ensure spans take the full width */
+    width: 100%;
+    /* Ensure spans take the full width */
   }
+
   .heading_image {
     display: flex;
     flex-direction: column;
   }
+
   .call-for-counselling {
     position: absolute;
     top: 350.2px;
     left: 234.13px;
   }
+
   .small-description {
     font-size: 20.17px;
     position: absolute;
@@ -520,10 +529,11 @@
     color: #969696;
     /* text-shadow: 1px 1px 5px #969696; */
   }
+
   .car-logo {
     gap: 1.5rem;
     /* Reduced gap for very small screens */
-    /* padding: 0.5rem; */
+
     position: relative;
     top: 109px;
 
@@ -568,6 +578,7 @@
     left: 40px;
     top: -120px;
   }
+
   .circle-container {
     display: flex;
 
@@ -637,6 +648,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     /* Optional shadow for aesthetics */
   }
+
   .icon-circle2 {
     position: absolute;
     top: 140px;
@@ -663,6 +675,7 @@
     fill: #ffffff;
     /* Optional: Change the color of the SVG */
   }
+
   .icon-circle2 svg {
     width: 15px;
     /* Adjust icon size */
@@ -787,18 +800,21 @@
     color: #ffffff;
     /* White checkmark */
   }
+
   .hero-container {
     height: 1100px;
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 468px) {
   .hero-container {
     padding: 80px;
   }
+
   .heading-h1 {
     margin-left: 0px;
-    line-height: normal; /* Ensure readable line height */
+    line-height: normal;
+    /* Ensure readable line height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -806,11 +822,13 @@
     padding: 10px;
   }
 
-  .heading-h1 > h1 {
-    font-family: Gilroy, sans-serif; /* Adding a fallback font */
+  .heading-h1>h1 {
+    font-family: Gilroy, sans-serif;
+    /* Adding a fallback font */
     font-weight: 700;
     font-size: 28px;
-    width: 100%; /* Use full width for better scaling */
+    width: 100%;
+    /* Use full width for better scaling */
     line-height: 1.5;
     text-align: center;
     display: flex;
@@ -825,17 +843,21 @@
 
   .heading-h1 span {
     display: block;
-    width: 100%; /* Ensure spans take the full width */
+    width: 100%;
+    /* Ensure spans take the full width */
   }
+
   .heading_image {
     display: flex;
     flex-direction: column;
   }
+
   .call-for-counselling {
     position: absolute;
     top: 200.2px;
     left: 74.13px;
   }
+
   .small-description {
     font-size: 20.17px;
     position: absolute;
@@ -844,6 +866,7 @@
     color: #969696;
     /* text-shadow: 1px 1px 5px #969696; */
   }
+
   .car-logo {
     gap: 0.5rem;
     /* Reduced gap for very small screens */
@@ -892,6 +915,7 @@
     left: 40px;
     top: -120px;
   }
+
   .circle-container {
     display: flex;
 
@@ -961,6 +985,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     /* Optional shadow for aesthetics */
   }
+
   .icon-circle2 {
     position: absolute;
     top: 160px;
@@ -987,6 +1012,7 @@
     fill: #ffffff;
     /* Optional: Change the color of the SVG */
   }
+
   .icon-circle2 svg {
     width: 15px;
     /* Adjust icon size */

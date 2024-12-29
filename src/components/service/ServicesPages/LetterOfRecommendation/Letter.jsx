@@ -10,7 +10,7 @@ import {
   FaHome,
 } from "react-icons/fa";
 // import "./University.css";
-import ui from "../../../../assets/ServicePageImages/Letter/lt.jpg";
+import ui from "../../../../assets/ServicePageImages/Letter/Lt.jpg";
 // import Universities from "../../../Universities";
 const universities = [
   {

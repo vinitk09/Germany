@@ -1,49 +1,48 @@
- .p-header {
-     font-family: Gilroy-Bold;
-     font-size: 64px;
-     font-weight: 400;
-     line-height: 79.23px;
-     text-align: left;
-     text-underline-position: from-font;
-     text-decoration-skip-ink: none;
-     font-family: Gilroy-Bold;
-     font-size: 64px;
-     font-weight: 400;
-     line-height: 79.23px;
-     text-align: left;
-     text-underline-position: from-font;
-     text-decoration-skip-ink: none;
- }
+.p-header {
+  font-family: Gilroy;
+  font-size: 64px;
+  line-height: 79.23px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-family: Gilroy-Bold;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 79.23px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
- .p-header-des {
-     font-family: Gilroy-SemiBold;
-     font-size: 24px;
-     font-weight: 400;
-     line-height: 23px;
-     text-align: center;
-     text-underline-position: from-font;
-     text-decoration-skip-ink: none;
- }
+}
 
- @media (max-width:468px) {
-     .p-header {
-         font-size: 40px;
-     }
+.p-header-des {
+  font-family: Gilroy-SemiBold;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 
-     .p-header-des {
-         font-size: 18px;
-     }
+@media (max-width: 468px) {
+  .p-header {
+    font-size: 40px;
+  }
 
-     .back-div {
-         position: absolute;
-         /* top: 10px; */
-     }
+  .p-header-des {
+    font-size: 18px;
+  }
 
-     .front-div {
-         position: relative;
-         bottom: 4px;
+  .back-div {
+    position: absolute;
+    /* top: 10px; */
+  }
 
-         /* bottom: 10px; */
-     }
+  .front-div {
+    position: relative;
+    bottom: 4px;
 
- }
+    /* bottom: 10px; */
+  }
+}

@@ -356,6 +356,32 @@
   color: #d63715;
 }
 
+@media (min-width: 768px) and (max-width: 920px) {
+  .testimonial-heading {
+    font-size: 84px;
+  }
+  .testimonial-outer-heading2 {
+    position: relative;
+    top: 18px;
+    font-family: Gilroy;
+    font-size: 44.56px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #d63715;
+  }
+
+  .testimonials-content {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 550px;
+    overflow: hidden;
+  }
+}
 @media (max-width: 768px) {
   .testimonial-outer-heading2 {
     position: relative;

@@ -1,5 +1,6 @@
 import "./Services.css";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { ResponsiveImage } from "../service/common/ResponsiveImage";
 import "remixicon/fonts/remixicon.css"; // Import Remix Icons CSS
@@ -11,15 +12,18 @@ export function ServiceCard({
   image,
   imageAlt,
   isReversed = false,
+  routePath, // Pass the route path dynamically
   imageSize = "medium",
   customHeight,
   customWidth,
-  endThreshold = 5960, // Default end value if not provided
+  endThreshold = 6015, // Default end value if not provided
 }) {
+  const navigate = useNavigate();
+
   const [shouldDisplay, setShouldDisplay] = useState(false);
 
   useEffect(() => {
-    const startThreshold = 3040; // Airplane appears after scrolling 500px
+    const startThreshold = 3100; // Airplane appears after scrolling 500px
 
     const handleScroll = () => {
       const servicesSection = document.getElementById("services-section");
@@ -107,7 +111,7 @@ export function ServiceCard({
               {description}
             </p>
             <button
-              onClick={() => scroll.scrollTo(1000)} // Smooth scroll to a specific position
+              onClick={() => navigate(routePath)}
               className="inline-flex items-center px-6 py-3 text-white rounded-lg transition-colors bg-gradient-to-r from-[#FF9422] to-[#D63715] hover:from-[#D63715] hover:to-[#FF9422]"
             >
               Know More

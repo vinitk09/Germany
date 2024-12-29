@@ -1,3 +1,17 @@
+/* General Styling */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
+  width: 100%;
+}
+
 .services-heading {
   font-family: Gilroy;
   font-size: 134.99px;
@@ -21,7 +35,7 @@
   text-decoration-skip-ink: none;
   color: #d63715;
   position: absolute;
-  left: 480px;
+  left: 490px;
   top: 43%;
 }
 
@@ -46,20 +60,6 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #101828;
-}
-
-/* General Styling */
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  /* Prevent horizontal scrolling */
-  width: 100%;
 }
 
 /* Flex Container for Service Card */
@@ -101,7 +101,7 @@ body {
 }
 
 /* Medium Screens (Tablets) */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .service-card {
     flex-direction: column;
     /* Column layout */
@@ -146,6 +146,7 @@ body {
   .vertical-line {
     display: none;
   }
+
   .services-heading {
     font-family: Gilroy;
     font-size: 94.99px;
@@ -172,6 +173,7 @@ body {
     left: 130px;
     top: 43%;
   }
+
   .img-section {
     padding-left: 0px;
     padding-right: 0px;
@@ -276,7 +278,7 @@ body {
     display: none;
   }
 
-  .title > h3 {
+  .title>h3 {
     font-size: 12px;
   }
 
@@ -293,6 +295,155 @@ body {
   .title {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 500px) {
+  .title {
+    padding-left: 80px;
+    padding-right: 0px;
+  }
+
+  .description {
+    padding-left: 80px;
+  }
+
+  .know-more-btn {
+    margin-left: 78px;
+    padding-left: 80px;
+    padding-right: 0px;
+  }
+
+  .service-card {
+    flex-direction: column;
+    /* Column layout */
+    gap: 16px;
+    /* Adjusted gap for mobile */
+  }
+
+  .service-card-image {
+    order: 1;
+    /* Image comes first */
+    width: 100%;
+    /* Full width for image */
+  }
+
+  .service-card-text {
+    order: 2;
+    /* Text comes second */
+    width: 20px;
+    /* Full width for text */
+  }
+
+  .what-we-do {
+    font-family: Gilroy;
+    font-size: 26.56px;
+    font-weight: 600;
+    line-height: 97.07px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #d63715;
+    position: absolute;
+    left: 110px;
+    top: 32%;
+  }
+
+  .card-heading {
+    font-family: Gilroy-Bold;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 60.95px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #101828;
+  }
+
+  .services-heading {
+    position: relative;
+    font-family: Gilroy;
+    font-size: 56.99px;
+    font-weight: 900;
+    line-height: 196.87px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffd9b17a;
+    /* left: -20px; */
+  }
+
+  .airplane-icon {
+    display: none;
+  }
+
+  /* Hide the vertical line on mobile */
+  .vertical-line {
+    display: none;
+  }
+
+  .title>h3 {
+    font-size: 12px;
+  }
+
+  .img-section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .img-section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+  .what-we-do {
+    font-size: 42px;
+    left: 80px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 600px) {
+  .what-we-do {
+    font-size: 42px;
+    left: 95px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .what-we-do {
+    font-size: 42px;
+    left: 195px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1050px) {
+  .what-we-do {
+    font-size: 42px;
+    left: 320px;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1150px) {
+  .what-we-do {
+    font-size: 42px;
+    left: 325px;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1250px) {
+  .what-we-do {
+    font-size: 42px;
+    left: 325px;
   }
 }
 

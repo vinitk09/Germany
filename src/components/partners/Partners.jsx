@@ -72,7 +72,7 @@ const Partners = () => {
         <PartnersHeader />
 
         <div className="relative">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-12 items-center justify-items-center mt-8 md:mt-12 lg:mt-16">
+          <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-0 items-center justify-items-center mt-8 md:mt-12 lg:mt-12">
             {partners.map((partner) => (
               <div key={partner.name} className="w-full flex justify-center">
                 <PartnerLogo

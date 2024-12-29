@@ -243,6 +243,233 @@
   height: 70px;
   color: #ea7d06;
 }
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .choose-us-container {
+    height: 1000px;
+    padding: 0;
+  }
+
+  .choose-us-heading-outer-container > .choose-us-heading-2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+
+  .choose-us-card-section {
+    position: relative;
+    display: flex;
+
+    gap: 0px;
+  }
+
+  .card-common {
+    height: 320px;
+    width: 290px;
+    /* margin: 1.2rem; */
+  }
+
+  .card-back {
+    height: 320px;
+    width: 290px;
+    /* margin: 1.2rem; */
+  }
+
+  .card-container > .small-card {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    width: 94px;
+    height: 89px;
+    top: -155px;
+    left: 1%;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    /* z-index: 1; */
+    background: linear-gradient(180deg, #ea7d06 0%, #d63715 100%);
+  }
+
+  .icon {
+    font-size: 50px;
+    /* Adjust size as needed */
+    color: #ffffff;
+    /* White color for the icon */
+    display: inline-block;
+  }
+
+  .card-common > .card-content {
+    font-size: 26px;
+  }
+
+  .card-common > p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .card-back > .card-content {
+    font-size: 25px;
+  }
+
+  .card-back > p {
+    font-size: 22px;
+    width: 80%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .choose-us-container {
+    height: 1000px;
+    padding: 0;
+  }
+
+  .choose-us-heading-outer-container > .choose-us-heading-2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+
+  .choose-us-card-section {
+    position: relative;
+    display: flex;
+
+    gap: 0px;
+  }
+
+  .card-common {
+    height: 320px;
+    width: 290px;
+    /* margin: 1.2rem; */
+  }
+
+  .card-back {
+    height: 320px;
+    width: 290px;
+    /* margin: 1.2rem; */
+  }
+
+  .card-container > .small-card {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    width: 94px;
+    height: 89px;
+    top: -155px;
+    left: 1%;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    /* z-index: 1; */
+    background: linear-gradient(180deg, #ea7d06 0%, #d63715 100%);
+  }
+
+  .icon {
+    font-size: 50px;
+    /* Adjust size as needed */
+    color: #ffffff;
+    /* White color for the icon */
+    display: inline-block;
+  }
+
+  .card-common > .card-content {
+    font-size: 26px;
+  }
+
+  .card-common > p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .card-back > .card-content {
+    font-size: 25px;
+  }
+
+  .card-back > p {
+    font-size: 22px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .choose-us-container {
+    height: 1700px;
+    padding: 0;
+  }
+
+  .choose-us-heading-outer-container > .choose-us-heading-2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+
+  .choose-us-card-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+
+  .card-common {
+    height: 320px;
+    width: 290px;
+    /* margin: 1.2rem; */
+  }
+
+  .card-back {
+    height: 320px;
+    width: 290px;
+    /* margin: 1.2rem; */
+  }
+
+  .card-container > .small-card {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    width: 94px;
+    height: 89px;
+    top: -155px;
+    left: 1%;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    /* z-index: 1; */
+    background: linear-gradient(180deg, #ea7d06 0%, #d63715 100%);
+  }
+
+  .icon {
+    font-size: 50px;
+    /* Adjust size as needed */
+    color: #ffffff;
+    /* White color for the icon */
+    display: inline-block;
+  }
+
+  .card-common > .card-content {
+    font-size: 26px;
+  }
+
+  .card-common > p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .card-back > .card-content {
+    font-size: 25px;
+  }
+
+  .card-back > p {
+    font-size: 22px;
+    width: 80%;
+  }
+}
 
 @media (max-width: 768px) {
   .choose-us-container {

@@ -90,6 +90,32 @@
 }
 
 /* Responsive adjustments for smaller screens */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .big-heading-tr {
+    font-size: 78px;
+    /* line-height: 1.1em; */
+  }
+
+  .small-heading-tr {
+    font-size: 48px;
+    position: relative;
+    top: -50px;
+  }
+
+  .transparency-img {
+    width: 95%;
+    /* Make the image fill more space on smaller screens */
+  }
+
+  .transaprency-main-container::before {
+    width: 170px;
+    height: 170px;
+    bottom: -40px;
+    /* Adjust placement for smaller screens */
+    left: -100px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .big-heading-tr {
     font-size: 78px;

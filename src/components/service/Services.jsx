@@ -16,6 +16,7 @@ const SERVICES_DATA = [
     description:
       "Get Free Expert Guidance on your Study Abroad dream and shortlist courses from a plethora of 500+ Universities and 15,000+ courses.",
     image: s1,
+    routePath: "/university",
   },
   {
     title: "University Shortlisting",
@@ -24,6 +25,7 @@ const SERVICES_DATA = [
     image: s2,
     imageAlt: "University selection process",
     isReversed: true,
+    routePath: "/university",
   },
   {
     title: "Statement of Purpose",
@@ -31,6 +33,7 @@ const SERVICES_DATA = [
       "Get an Education Loan without Collateral within 3-5 working days at competitive Interest Rates and clear the financial hurdle.",
     image: s3,
     imageAlt: "Writing statement of purpose",
+    routePath: "/statement",
   },
   {
     title: "Curriculum Vitae",
@@ -39,12 +42,14 @@ const SERVICES_DATA = [
     image: s4,
     imageAlt: "CV preparation",
     isReversed: true,
+    routePath: "/cv",
   },
   {
     title: "Letter of Recommendation",
     description: '"Good" to "Great" - Letter of recommendation ',
     image: s5,
     imageAlt: "Letter of recommendation",
+    routePath: "/letter",
   },
   {
     title: "University Application",
@@ -53,6 +58,7 @@ const SERVICES_DATA = [
     image: s6,
     imageAlt: "University application process",
     isReversed: true,
+    routePath: "/universityapplication",
   },
   {
     title: "Visa Assistance",
@@ -60,6 +66,7 @@ const SERVICES_DATA = [
       "With our Visa Expert, fulfil the Visa application requirements and apply for the Visa. We have a success rate of more than 95.5%",
     image: s7,
     imageAlt: "Visa assistance",
+    routePath: "/visa",
   },
   {
     title: "Accommodation and Travel Assistance",
@@ -68,6 +75,7 @@ const SERVICES_DATA = [
     image: s8,
     imageAlt: "Accommodation assistance",
     isReversed: true,
+    routePath: "/accomodation",
   },
 ];
 
